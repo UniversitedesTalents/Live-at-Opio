@@ -17,4 +17,6 @@ Closing Party takes place at Bar du Loup. Sportive Evening has no venue line: gu
 
 All page copy is English. No emojis. Use the supplied programme and Hub links in events-data.js as references; the matching navigation URLs are in index.html.
 
-The new supplied party photograph is used as the cover, with equal mobile side margins and a 4:5 crop focused on both faces. Event counts and category labels are hidden. Venue and time appear together below each title, with small SVG line icons; no emoji arrows are used.
+The new supplied party photograph is used as the cover, with equal mobile side margins and a landscape crop focused on both faces. Event counts and category labels are hidden. Venue and time appear together below each title, with small SVG line icons; no emoji arrows are used.
+
+Minimal edition: mobile cover uses 16:10, desktop 2:1. Intro slogans, dress-code display and the lower programme promotion have been removed.
