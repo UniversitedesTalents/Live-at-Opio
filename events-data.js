@@ -4,16 +4,30 @@ window.OPIO_LIVE = {
   "programmeUrl": "https://club-med-makers-opio-programme-2026.netlify.app/",
   "events": [
     {
-      "id": "opening",
+      "id": "celebration",
       "date": "2026-11-09",
-      "start": "19:00",
-      "end": "22:00",
-      "title": "Opening Night",
+      "start": "19:30",
+      "end": "20:45",
+      "title": "Club Med Celebration",
       "location": "Bar du Loup",
-      "subtitle": "Meet the new Chefs de Village.",
-      "description": "Raise a glass to kick off our Club Med Celebration and meet the new Chefs de Village.",
+      "subtitle": "Meet our new Resort Managers",
+      "description": "Meet our new Resort Managers.",
       "image": "assets/opening.jpg",
       "imagePosition": "50% 64%",
+      "category": "Aperitif",
+      "dressCode": "Smart"
+    },
+    {
+      "id": "opening",
+      "date": "2026-11-09",
+      "start": "22:00",
+      "end": "00:00",
+      "title": "Opening Night",
+      "location": "Bar du Loup",
+      "subtitle": "See you on the dance floor.",
+      "description": "The music’s on and the dance floor is yours.",
+      "image": "assets/party.jpg",
+      "imagePosition": "58% 48%",
       "category": "Opening evening",
       "dressCode": "Smart"
     },
@@ -23,9 +37,9 @@ window.OPIO_LIVE = {
       "start": "12:30",
       "end": "14:00",
       "title": "Provençal Lunch",
-      "location": "Convention Center",
+      "location": "Oliveraie",
       "subtitle": "A taste of Provence.",
-      "description": "Enjoy a taste of Provence over lunch together.",
+      "description": "Enjoy a Provençal lunch together among the olive trees.",
       "image": "assets/provencal.jpg",
       "imagePosition": "50% 49%",
       "category": "Around the table",
@@ -63,7 +77,7 @@ window.OPIO_LIVE = {
     {
       "id": "terrace",
       "date": "2026-11-11",
-      "start": "18:30",
+      "start": "19:00",
       "end": "20:00",
       "title": "Aperitif",
       "location": "Restaurant Terrace",
@@ -108,13 +122,53 @@ window.OPIO_LIVE = {
       "start": "22:00",
       "end": "02:00",
       "title": "Closing Party",
-      "location": "Theatre",
+      "location": "Bar du Loup",
       "subtitle": "DJ Night Clubbing.",
-      "description": "DJ Night Clubbing. One last night to make it count.",
+      "description": "Close out the week with Holseek on the decks, blending house, electro-pop and a touch of ’90s nostalgia.",
       "image": "assets/party.jpg",
       "imagePosition": "64% 50%",
       "category": "The last dance",
       "dressCode": "Out of Office"
+    },
+    {
+      "id": "shannon-9",
+      "date": "2026-11-09",
+      "title": "Portraits with Shannon",
+      "description": "Sit for a painted portrait with Shannon, an illustrator based in Cannes, and take it home with you.",
+      "image": "assets/shannon.jpg",
+      "imagePosition": "center"
+    },
+    {
+      "id": "shannon-10",
+      "date": "2026-11-10",
+      "title": "Portraits with Shannon",
+      "description": "Sit for a painted portrait with Shannon, an illustrator based in Cannes, and take it home with you.",
+      "image": "assets/shannon.jpg",
+      "imagePosition": "center"
+    },
+    {
+      "id": "opalia-9",
+      "date": "2026-11-09",
+      "title": "Opalia Trio",
+      "description": "Join singer Manon and her trio for a live set.",
+      "image": "assets/opalia.jpg",
+      "imagePosition": "center"
+    },
+    {
+      "id": "opalia-10",
+      "date": "2026-11-10",
+      "title": "Opalia Trio",
+      "description": "Join singer Manon and her trio for a live set.",
+      "image": "assets/opalia.jpg",
+      "imagePosition": "center"
+    },
+    {
+      "id": "stefano-brian-10",
+      "date": "2026-11-10",
+      "title": "HYROX & Mills Yoga",
+      "description": "Join Stefano and Brian for a HYROX-inspired workout or try Mills Yoga for mobility, balance and breathwork.",
+      "image": "assets/hyrox.jpg",
+      "imagePosition": "center"
     }
   ]
 };
