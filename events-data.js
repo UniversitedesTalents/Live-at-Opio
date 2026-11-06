@@ -135,40 +135,40 @@ window.OPIO_LIVE = {
       "date": "2026-11-09",
       "title": "Portraits with Shannon",
       "description": "Sit for a painted portrait with Shannon, an illustrator based in Cannes, and take it home with you.",
-      "image": "assets/shannon.jpg",
-      "imagePosition": "center"
+      "image": "assets/shannon-hd.jpg",
+      "imagePosition": "50% 44%"
     },
     {
       "id": "shannon-10",
       "date": "2026-11-10",
       "title": "Portraits with Shannon",
       "description": "Sit for a painted portrait with Shannon, an illustrator based in Cannes, and take it home with you.",
-      "image": "assets/shannon.jpg",
-      "imagePosition": "center"
+      "image": "assets/shannon-hd.jpg",
+      "imagePosition": "50% 44%"
     },
     {
       "id": "opalia-9",
       "date": "2026-11-09",
       "title": "Opalia Trio",
       "description": "Join singer Manon and her trio for a live set.",
-      "image": "assets/opalia.jpg",
-      "imagePosition": "center"
+      "image": "assets/opalia-hd.jpg",
+      "imagePosition": "50% 0%"
     },
     {
       "id": "opalia-10",
       "date": "2026-11-10",
       "title": "Opalia Trio",
       "description": "Join singer Manon and her trio for a live set.",
-      "image": "assets/opalia.jpg",
-      "imagePosition": "center"
+      "image": "assets/opalia-hd.jpg",
+      "imagePosition": "50% 0%"
     },
     {
       "id": "stefano-brian-10",
       "date": "2026-11-10",
       "title": "HYROX & Mills Yoga",
       "description": "Join Stefano and Brian for a HYROX-inspired workout or try Mills Yoga for mobility, balance and breathwork.",
-      "image": "assets/hyrox.jpg",
-      "imagePosition": "center"
+      "image": "assets/hyrox-hd.jpg",
+      "imagePosition": "46% 50%"
     }
   ]
 };
