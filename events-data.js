@@ -151,7 +151,7 @@ window.OPIO_LIVE = {
       "date": "2026-11-09",
       "title": "Opalia Trio",
       "description": "Join singer Manon and her trio for a live set.",
-      "image": "assets/opalia-hd.jpg",
+      "image": "assets/opalia-hd-v2.jpg",
       "imagePosition": "50% 0%"
     },
     {
@@ -159,7 +159,7 @@ window.OPIO_LIVE = {
       "date": "2026-11-10",
       "title": "Opalia Trio",
       "description": "Join singer Manon and her trio for a live set.",
-      "image": "assets/opalia-hd.jpg",
+      "image": "assets/opalia-hd-v2.jpg",
       "imagePosition": "50% 0%"
     },
     {
