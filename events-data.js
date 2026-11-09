@@ -136,7 +136,10 @@ window.OPIO_LIVE = {
       "title": "Portraits with Shannon",
       "description": "Sit for a painted portrait with Shannon, an illustrator based in Cannes, and take it home with you.",
       "image": "assets/shannon-hd.jpg",
-      "imagePosition": "50% 44%"
+      "imagePosition": "50% 44%",
+      "start": "21:30",
+      "end": "22:30",
+      "location": "Bar du Loup"
     },
     {
       "id": "shannon-10",
@@ -144,7 +147,10 @@ window.OPIO_LIVE = {
       "title": "Portraits with Shannon",
       "description": "Sit for a painted portrait with Shannon, an illustrator based in Cannes, and take it home with you.",
       "image": "assets/shannon-hd.jpg",
-      "imagePosition": "50% 44%"
+      "imagePosition": "50% 44%",
+      "start": "18:00",
+      "end": "20:00",
+      "location": "Bar du Loup"
     },
     {
       "id": "opalia-9",
@@ -152,7 +158,10 @@ window.OPIO_LIVE = {
       "title": "Opalia Trio",
       "description": "Join singer Manon and her trio for a live set.",
       "image": "assets/opalia-hd-v2.jpg",
-      "imagePosition": "50% 0%"
+      "imagePosition": "50% 0%",
+      "start": "22:00",
+      "end": "23:30",
+      "location": "Bar du Loup"
     },
     {
       "id": "opalia-10",
@@ -160,7 +169,10 @@ window.OPIO_LIVE = {
       "title": "Opalia Trio",
       "description": "Join singer Manon and her trio for a live set.",
       "image": "assets/opalia-hd-v2.jpg",
-      "imagePosition": "50% 0%"
+      "imagePosition": "50% 0%",
+      "start": "12:00",
+      "end": "14:00",
+      "location": "Pelouse Zen"
     }
   ]
 };
