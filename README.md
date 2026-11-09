@@ -1,6 +1,6 @@
 # Live at Opio · Club Med Makers · 9-12 November 2026
 
-A responsive, static English website for the fourteen event listings supplied. Newsreader Bold/italic, Inter Medium/Semibold/Bold and the Makers palette. Original supplied photos are used as illustrative event imagery; the Korben listing does not claim to depict the performer.
+A responsive, static English website for the thirteen event listings supplied. Newsreader Bold/italic, Inter Medium/Semibold/Bold and the Makers palette. Original supplied photos are used as illustrative event imagery; the Korben listing does not claim to depict the performer.
 
 ## Publish
 Upload ALL the contents of this folder to a new GitHub repository. Connect it to Netlify, leave the build command empty, and use `.` as the publish directory. Or drop the whole folder into Netlify Drop. Open index.html for a local preview.
@@ -20,5 +20,3 @@ All page copy is English. No emojis. Use the supplied programme and Hub links in
 The new supplied party photograph is used as the cover, with equal mobile side margins and a landscape crop focused on both faces. Event counts and category labels are hidden. Venue and time appear together below each title, with small SVG line icons; no emoji arrows are used.
 
 Minimal edition: mobile cover uses 16:10, desktop 2:1. Intro slogans, dress-code display and the lower programme promotion have been removed. The footer includes a simple Your Programme link.
-
-HYROX illustrative photo: Connor Button (https://www.connorbutton.ca/hyrox/).

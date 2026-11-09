@@ -161,14 +161,6 @@ window.OPIO_LIVE = {
       "description": "Join singer Manon and her trio for a live set.",
       "image": "assets/opalia-hd-v2.jpg",
       "imagePosition": "50% 0%"
-    },
-    {
-      "id": "stefano-brian-10",
-      "date": "2026-11-10",
-      "title": "HYROX & Mills Yoga",
-      "description": "Join Stefano and Brian for a HYROX-inspired workout or try Mills Yoga for mobility, balance and breathwork.",
-      "image": "assets/hyrox-hd.jpg",
-      "imagePosition": "46% 50%"
     }
   ]
 };
