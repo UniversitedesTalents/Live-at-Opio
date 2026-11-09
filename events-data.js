@@ -173,6 +173,26 @@ window.OPIO_LIVE = {
       "start": "12:00",
       "end": "14:00",
       "location": "Pelouse Zen"
+    },
+    {
+      "id": "therabody-jetboots",
+      "date": "2026-11-10",
+      "start": "17:30",
+      "end": "20:00",
+      "title": "Therabody JetBoots",
+      "location": "Fitness Room",
+      "description": "Try Therabody’s pneumatic compression boots as part of the Wellness Fusion experience. Sessions last 30 minutes.",
+      "image": ""
+    },
+    {
+      "id": "myblend-led-mask",
+      "date": "2026-11-10",
+      "start": "17:30",
+      "end": "20:00",
+      "title": "myBlend LED Masks",
+      "location": "Main Bar",
+      "description": "Take a skincare break and try a myBlend LED mask as part of the Wellness Fusion experience. Sessions last 15 minutes.",
+      "image": ""
     }
   ]
 };

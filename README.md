@@ -1,6 +1,6 @@
 # Live at Opio · Club Med Makers · 9-12 November 2026
 
-A responsive, static English website for the thirteen event listings supplied. Newsreader Bold/italic, Inter Medium/Semibold/Bold and the Makers palette. Original supplied photos are used as illustrative event imagery; the Korben listing does not claim to depict the performer.
+A responsive, static English website for the fifteen event listings supplied. Newsreader Bold/italic, Inter Medium/Semibold/Bold and the Makers palette. Original supplied photos are used as illustrative event imagery; the Korben listing does not claim to depict the performer.
 
 ## Publish
 Upload ALL the contents of this folder to a new GitHub repository. Connect it to Netlify, leave the build command empty, and use `.` as the publish directory. Or drop the whole folder into Netlify Drop. Open index.html for a local preview.
