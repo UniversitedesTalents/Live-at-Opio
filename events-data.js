@@ -182,7 +182,8 @@ window.OPIO_LIVE = {
       "title": "Therabody JetBoots",
       "location": "Fitness Room",
       "description": "Try Therabody’s pneumatic compression boots as part of the Wellness Fusion experience. Sessions last 30 minutes.",
-      "image": ""
+      "image": "assets/therabody-jetboots.webp",
+      "imageAspectRatio": "1 / 1"
     },
     {
       "id": "myblend-led-mask",
@@ -192,7 +193,8 @@ window.OPIO_LIVE = {
       "title": "myBlend LED Masks",
       "location": "Main Bar",
       "description": "Take a skincare break and try a myBlend LED mask as part of the Wellness Fusion experience. Sessions last 15 minutes.",
-      "image": ""
+      "image": "assets/myblend-led-mask.webp",
+      "imageAspectRatio": "1 / 1"
     }
   ]
 };
