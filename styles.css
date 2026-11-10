@@ -20,3 +20,21 @@
 
 .schedule-note{font-size:12px;max-width:none}.schedule-note a,.footer-programme{text-decoration:underline;text-underline-offset:3px}footer{flex-wrap:wrap;column-gap:22px;row-gap:4px}footer .footer-programme{margin-left:auto}
 @media(max-width:760px){footer .footer-programme{flex-basis:100%;margin-left:0}}
+
+.moment-signup {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 12px;
+  padding: 8px 18px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.moment-signup:hover {
+  background: var(--accent);
+  color: var(--navy);
+}

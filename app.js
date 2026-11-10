@@ -9,7 +9,16 @@ function lineIcon(kind){const el=make('span','line-icon');el.setAttribute('aria-
 function card(e){
 const card=make('article','moment-card');if(e.image){const visual=make('div','moment-visual');const photo=make('div','moment-photo');if(e.imageAspectRatio)photo.style.aspectRatio=e.imageAspectRatio;const img=make('img','moment-image');img.src=e.image;img.alt=e.id==='korben'?'Two performers in red on stage beneath the words Uptown Funk':e.title+' · Club Med';img.loading='lazy';img.width=1200;img.height=1500;img.style.objectPosition=e.imagePosition||'center';photo.append(img);visual.append(photo);card.append(visual)}
 const copy=make('div','moment-copy');const title=make('h4','moment-title');const parts=e.title.trim().split(/\s+/);if(parts.length>1){title.append(make('span','',parts.shift()),make('em','',parts.join(' ')))}else title.textContent=e.title;
-copy.append(title);const info=make('div','moment-info');if(e.location){const loc=make('p','moment-location');loc.append(lineIcon('pin'),make('span','',e.location));info.append(loc)}if(e.start&&e.end){const time=make('p','moment-time');time.append(lineIcon('clock'),make('span','',`${e.start} - ${e.end}`));if(e.end<=e.start)time.append(make('small','', '+1 day'));info.append(time)}if(info.childElementCount)copy.append(info);copy.append(make('p','moment-description',e.description));card.append(copy);return card;
+copy.append(title);const info=make('div','moment-info');if(e.location){const loc=make('p','moment-location');loc.append(lineIcon('pin'),make('span','',e.location));info.append(loc)}if(e.start&&e.end){const time=make('p','moment-time');time.append(lineIcon('clock'),make('span','',`${e.start} - ${e.end}`));if(e.end<=e.start)time.append(make('small','', '+1 day'));info.append(time)}if(info.childElementCount)copy.append(info);copy.append(make('p','moment-description',e.description));
+if(e.signupUrl && /^https:\/\//i.test(e.signupUrl)){
+  const signup=make('a','moment-signup','Sign up');
+  signup.href=e.signupUrl;
+  signup.target='_blank';
+  signup.rel='noopener noreferrer';
+  signup.setAttribute('aria-label','Sign up for '+e.title+' (opens in a new tab)');
+  copy.append(signup);
+}
+card.append(copy);return card;
 }
 function live(){const now=new Date();const active=events.filter(e=>{if(e.date!==selected||!e.start||!e.end)return false;const w=windowFor(e);return now>=w.start&&now<w.end});const box=$('liveStatus');box.hidden=!active.length;if(active.length)box.textContent='Happening now · '+active.map(e=>e.title+(e.location?' at '+e.location:'')).join(' · ')}
 function render(){const list=$('eventList');list.replaceChildren();$('dayNav').querySelectorAll('button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.day===selected)));for(const date of dates){if(selected!==date)continue;const group=events.filter(e=>e.date===date);const section=make('section','day-section'+(group.length===1?' single':''));section.setAttribute('aria-label',dayText(date));const heading=make('div','day-title');heading.append(make('h3','',dayText(date)));const grid=make('div','event-grid');group.forEach(e=>grid.append(card(e)));section.append(heading,grid);list.append(section)}live()}
